@@ -1,26 +1,61 @@
 @import "tailwindcss";
 
-:root {
-  --background: #ffffff;
-  --foreground: #171717;
+@font-face {
+	font-family: "super-rugged";
+	src: url("/super-rugged-font/super-rugged.ttf") format("truetype");
 }
 
-@theme inline {
-  --color-background: var(--background);
-  --color-foreground: var(--foreground);
-  --font-sans: var(--font-geist-sans);
-  --font-mono: var(--font-geist-mono);
+.super-rugged {
+	font-family: "super-rugged", serif;
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-  }
+@keyframes sway {
+	0% {
+		rotate: 10deg;
+	}
+	50% {
+		rotate: -10deg;
+	}
+	100% {
+		rotate: 10deg;
+	}
 }
 
-body {
-  background: var(--background);
-  color: var(--foreground);
-  font-family: Arial, Helvetica, sans-serif;
+.sway {
+	animation: sway 2s ease-in-out infinite;
+	transform-origin: center;
+}
+
+@keyframes sway2 {
+	0% {
+		rotate: -10deg;
+	}
+	50% {
+		rotate: 10deg;
+	}
+	100% {
+		rotate: -10deg;
+	}
+}
+
+.sway2 {
+	animation: sway2 1.7s ease-in-out infinite;
+	transform-origin: center;
+}
+
+@keyframes sway3 {
+	0% {
+		rotate: -2deg;
+	}
+	50% {
+		rotate: 2deg;
+	}
+	100% {
+		rotate: -2deg;
+	}
+}
+
+.sway3 {
+	animation: sway3 1s ease-in-out infinite;
+	transform-origin: center;
 }
