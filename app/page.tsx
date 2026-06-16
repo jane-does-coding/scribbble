@@ -15,24 +15,6 @@ export default function Home() {
 
 	return (
 		<div className="relative w-full min-h-screen">
-			{/* <nav className="fixed z-2 top-[50%] translate-y-[-50%] left-[3vw] border-l-2 border-r-[0vh] py-[3vh] gap-[2vh] flex flex-col">
-				<div className="flex items-center justify-start gap-[1vw]">
-					<div className="w-[2vw] h-[0.2vh] bg-black"></div>
-					<h2 className="text-[2vh]">What is Scribble?</h2>
-				</div>
-				<div className="flex items-center justify-start gap-[1vw]">
-					<div className="w-[2vw] h-[0.2vh] bg-black"></div>
-					<h2 className="text-[2vh]">Ready to get started?</h2>
-				</div>
-				<div className="flex items-center justify-start gap-[1vw]">
-					<div className="w-[2vw] h-[0.2vh] bg-black"></div>
-					<h2 className="text-[2vh]">What to Submit?</h2>
-				</div>
-				<div className="flex items-center justify-start gap-[1vw]">
-					<div className="w-[2vw] h-[0.2vh] bg-black"></div>
-					<h2 className="text-[2vh]">How to Submit?</h2>
-				</div>
-			</nav> */}
 			<div className="mx-auto mt-[25vh] w-fit relative z-2">
 				<img
 					src="/circle.png"
@@ -51,7 +33,7 @@ export default function Home() {
 			</p>
 			<a
 				href="https://forms.hackclub.com/t/4h4dSyrE5Bus"
-				className="absolute w-fit z-5 right-[30vw] mt-[3vh] cursor-pointer"
+				className="absolute w-fit z-5 right-[30vw] mt-[3vh] cursor-pointer hover:scale-110 transition-all"
 			>
 				<p className="super-rugged text-[5vh] leading-[5vh] relative">Submit</p>
 				<img
@@ -127,7 +109,7 @@ export default function Home() {
 				/>
 				<img
 					src="/line.png"
-					className="absolute left-[45vw] top-[-55vh] w-[10vw] opacity-70 rotate-80"
+					className="absolute left-[45vw] top-[-55vh] w-[10vw] opacity-70 rotate-90"
 					alt=""
 				/>
 				<img
@@ -208,7 +190,7 @@ export default function Home() {
 					</div>
 				</div>
 			</div>
-			<div className="min-h-screen relative">
+			<div className="min-h-screen relative mb-[17vh]">
 				<img
 					src="/arrow2.png"
 					className="absolute right-[5vw] bottom-[18vh] w-[18vw] opacity-70 rotate-80"
@@ -254,7 +236,7 @@ export default function Home() {
 					What to submit?
 				</h1>
 				<div className="flex w-[70vw] mx-auto gap-[5vw] mt-[5vh] pl-[5vw] relative">
-					<div className="flex flex-col w-[45vw] h-[60vh] ml-[3vw] mt-[3vh] items-start justify-center text-left px-[3vw] gap-[4.5vh]">
+					<div className="flex flex-col w-[45vw] h-[60vh] ml-[4vw] mt-[3vh] items-start justify-center text-left px-[3vw] gap-[4.5vh]">
 						<h2 className="super-rugged text-[3vh]">
 							You must not use AI or any art that you didn't create yourself.
 						</h2>
@@ -271,10 +253,21 @@ export default function Home() {
 					</div>
 					<img
 						src="/square2.png"
-						className="w-[70vw] absolute top-0 left-0"
+						className="w-[70vw] absolute top-0 left-0 sway5"
 						alt=""
 					/>
 				</div>
+			</div>
+			<div className="bg-neutral-100 w-full h-[10vh] absolute bottom-0 flex items-center justify-between px-[3vw]">
+				<p className="super-rugged text-[2.75vh]">
+					Made with {"<3"} by Hack Clubbers
+				</p>
+				<p className="super-rugged text-[2.75vh] flex gap-[0.75vw]">
+					Contact at @Jenny{" "}
+					<a href="https://app.slack.com/client/E09V59WQY1E/C0BAXHKTETY">
+						#scribble-ysws
+					</a>
+				</p>
 			</div>
 		</div>
 	);
