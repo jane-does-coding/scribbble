@@ -36,7 +36,7 @@ export default function Home() {
 			<div className="mx-auto mt-[25vh] w-fit relative z-2">
 				<img
 					src="/circle.png"
-					className="w-full scale-140 absolute top-0 left-0 -translate-y-[2vh]"
+					className="w-full scale-140 absolute top-0 left-0 -translate-y-[2vh] sway4"
 					alt=""
 				/>
 				<h1 className="super-rugged text-[16vh] scale-90 font-extralight relative">
@@ -49,19 +49,18 @@ export default function Home() {
 			<p className="mx-auto relative z-2 w-fit mt-[-2vh] super-rugged text-[7vh] pl-[10vw]">
 				get a Sketchbook
 			</p>
-			<div className="relative w-fit z-5 mx-auto mr-[30vw] mt-[3vh]">
-				<p className="super-rugged text-[5vh] leading-[5vh] cursor-pointer">
-					Submit
-				</p>
+			<a
+				href="https://forms.hackclub.com/t/4h4dSyrE5Bus"
+				className="absolute w-fit z-5 right-[30vw] mt-[3vh] cursor-pointer"
+			>
+				<p className="super-rugged text-[5vh] leading-[5vh] relative">Submit</p>
 				<img
 					src="/circle.png"
-					className="w-full scale-190 absolute top-0 left-0 -translate-y-[1vh]"
+					className="w-full scale-190 absolute top-0 left-0 -translate-y-[1vh] sway3"
 					alt=""
 				/>
-			</div>
-			<p className="mx-auto relative z-2 w-fit mt-[8vh] pr-[7vw] super-rugged text-[5vh]">
-				Scroll
-			</p>
+			</a>
+
 			<div className="">
 				<img
 					src="/crumbled.jpg"
@@ -84,8 +83,13 @@ export default function Home() {
 					alt=""
 				/>
 				<img
+					src="/triangle.png"
+					className="absolute top-[10vh] left-[18vw] w-[7vw] opacity-70 sway2"
+					alt=""
+				/>
+				<img
 					src="/stain.png"
-					className="absolute top-[3vh] left-[25vw] w-[22vw] opacity-70 sway3"
+					className="absolute top-[3vh] left-[30vw] w-[22vw] opacity-70 sway4"
 					alt=""
 				/>
 				<img
@@ -95,14 +99,15 @@ export default function Home() {
 				/>
 				<img
 					src="/swirl.png"
-					className="absolute top-[55vh] left-[13vw] w-[10vw] opacity-70 sway3"
+					className="absolute top-[50vh] left-[13vw] w-[10vw] opacity-70 sway3"
 					alt=""
 				/>
 				<img
 					src="/swirl4.png"
-					className="absolute left-[5vw] top-[22vh] w-[10vw] opacity-70 sway rotate-80"
+					className="absolute left-[3vw] top-[20vh] w-[10vw] opacity-70 sway rotate-80"
 					alt=""
 				/>
+
 				<img
 					src="/hackclub.svg"
 					className="absolute left-[1vw] top-[0vh] w-[12vw] z-5"
@@ -125,10 +130,20 @@ export default function Home() {
 					className="absolute left-[45vw] top-[-55vh] w-[10vw] opacity-70 rotate-80"
 					alt=""
 				/>
-				<h1 className="super-rugged text-[10vh] mt-[35vh] mx-auto w-fit scale-90 font-extralight relative">
+				<img
+					src="/spin.png"
+					className="absolute left-[2vw] top-[20vh] w-[10vw] opacity-80 sway4"
+					alt=""
+				/>
+				<img
+					src="/swirl4.png"
+					className="absolute right-[2vw] top-[62vh] w-[8vw] opacity-80 sway4"
+					alt=""
+				/>
+				<h1 className="super-rugged text-[10vh] mt-[43vh] mx-auto w-fit scale-90 font-extralight relative">
 					What to make?
 				</h1>
-				<h2 className="super-rugged text-[5vh] mt-[-1vh] pl-[10vw] mx-auto w-fit scale-90 font-extralight relative">
+				<h2 className="super-rugged text-[5vh] mt-[-1vh] pl-[10vw] mx-auto w-fit scale-90 font-extralight relative sway5">
 					(Click to Reveal)
 				</h2>
 				<div className="flex relative z-2 gap-[5vw] w-[80vw] mx-auto mt-[-2vh]">
@@ -191,6 +206,74 @@ export default function Home() {
 							}`}
 						/>
 					</div>
+				</div>
+			</div>
+			<div className="min-h-screen relative">
+				<img
+					src="/arrow2.png"
+					className="absolute right-[5vw] bottom-[18vh] w-[18vw] opacity-70 rotate-80"
+					alt=""
+				/>
+				<img
+					src="/arrow3.png"
+					className="absolute left-[10vw] top-[-22vh] w-[8vw] opacity-70 -rotate-40"
+					alt=""
+				/>
+				<img
+					src="/line2.png"
+					className="absolute left-[22.5vw] top-[-18vh] w-[55vw] opacity-80"
+					alt=""
+				/>
+				<img
+					src="/hook.png"
+					className="absolute right-[9vw] top-[8vh] w-[15vw] opacity-80 sway2"
+					alt=""
+				/>
+				<img
+					src="/square.png"
+					className="absolute left-[2vw] top-[15vh] w-[4vw] opacity-80 sway2"
+					alt=""
+				/>
+				<img
+					src="/triangle.png"
+					className="absolute left-[3vw] top-[25vh] w-[10vw] opacity-80 sway4"
+					alt=""
+				/>
+				<img
+					src="/scribble.png"
+					className="absolute left-[3vw] top-[80vh] w-[18vw] opacity-80 sway4"
+					alt=""
+				/>
+
+				<img
+					src="/heart.png"
+					className="absolute right-[2.5vw] top-[24vh] w-[10vw] opacity-80 sway"
+					alt=""
+				/>
+				<h1 className="super-rugged text-[10vh] mt-[0vh] mx-auto w-fit scale-90 font-extralight relative">
+					What to submit?
+				</h1>
+				<div className="flex w-[70vw] mx-auto gap-[5vw] mt-[5vh] pl-[5vw] relative">
+					<div className="flex flex-col w-[45vw] h-[60vh] ml-[3vw] mt-[3vh] items-start justify-center text-left px-[3vw] gap-[4.5vh]">
+						<h2 className="super-rugged text-[3vh]">
+							You must not use AI or any art that you didn't create yourself.
+						</h2>
+						<h2 className="super-rugged text-[3vh]">
+							Under 30% of the website can be art - it's for the art tool, not
+							the art itself.
+						</h2>
+						<h2 className="super-rugged text-[3vh]">
+							You should be 18 years old or under to submit
+						</h2>
+						<h2 className="super-rugged text-[3vh]">
+							All of the work and code should be your unique work
+						</h2>
+					</div>
+					<img
+						src="/square2.png"
+						className="w-[70vw] absolute top-0 left-0"
+						alt=""
+					/>
 				</div>
 			</div>
 		</div>
