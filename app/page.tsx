@@ -189,6 +189,9 @@ export default function Home() {
 						/>
 					</div>
 				</div>
+				<h2 className="super-rugged text-[5vh] mt-[-5vh] mx-auto w-fit scale-90 font-extralight relative sway5">
+					3 Hours - Sketchbook, 1 Hour - Sticker
+				</h2>
 			</div>
 			<div className="min-h-screen relative mb-[17vh]">
 				<img
@@ -203,7 +206,7 @@ export default function Home() {
 				/>
 				<img
 					src="/line2.png"
-					className="absolute left-[22.5vw] top-[-18vh] w-[55vw] opacity-80"
+					className="absolute left-[22.5vw] top-[-14vh] w-[55vw] opacity-80"
 					alt=""
 				/>
 				<img
@@ -232,7 +235,7 @@ export default function Home() {
 					className="absolute right-[2.5vw] top-[24vh] w-[10vw] opacity-80 sway"
 					alt=""
 				/>
-				<h1 className="super-rugged text-[10vh] mt-[0vh] mx-auto w-fit scale-90 font-extralight relative">
+				<h1 className="super-rugged text-[10vh] mt-[3vh] mx-auto w-fit scale-90 font-extralight relative">
 					What to submit?
 				</h1>
 				<div className="flex w-[70vw] mx-auto gap-[5vw] mt-[5vh] pl-[5vw] relative">
